@@ -59,3 +59,6 @@ plot(avg_day_inflammation)
 avg_day_inflammation
 max_day_inflammation <- apply(dat, 2 ,max)
 plot(max_day_inflammation)
+sd_day_inflammation <- apply(dat, 2, sd)
+plot(sd_day_inflammation)
+<- 
